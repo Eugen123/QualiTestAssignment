@@ -6,6 +6,11 @@
             <class name="StringManipulationTest" />
         </classes>
     </test>
+    <test name="frameTest" >
+        <classes>
+            <class name="StringManipulationTest" />
+        </classes>
+    </test>
     <test name="listTest" verbose="1">
         <classes>
             <class name="ListManipulationTest"/>
