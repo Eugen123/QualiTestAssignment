@@ -14,9 +14,9 @@ public class ListManipulator {
 
         for (String s:
              input) {
-            if (s.contains(".mp4")) {
+            if (s.endsWith(".mp4")) {
                 video += s + " ";
-            } else if (s.contains(".wav")) {
+            } else if (s.endsWith(".wav")) {
                 audio += s + " ";
 
             } else {

@@ -32,4 +32,21 @@ public class ListManipulationTest {
         Assert.assertTrue(result.get("Other").trim().contains("Entry Six.csv"));
 
     }
+
+    @Test
+    public void filterTxtFile(){
+        ListManipulator listManipulator = new ListManipulator();
+
+        List<String> inputList = new ArrayList<String>();
+
+        inputList.add("Entry One.mp4.txt");
+
+        Map<String, String> result = listManipulator.filterFileTypes(inputList);
+
+        System.out.print(result);
+
+        Assert.assertEquals(result.get("Other").trim(), "Entry One.mp4.txt");
+
+
+    }
 }

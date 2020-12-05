@@ -17,4 +17,11 @@ public class StringManipulationTest {
 
         stringManipulator.printPhraseInPhrame("Hello word in a frame");
     }
+
+    @Test
+    public void frameTest1(){
+        StringManipulator stringManipulator = new StringManipulator();
+
+        stringManipulator.printPhraseInPhrame("Hello");
+    }
 }
