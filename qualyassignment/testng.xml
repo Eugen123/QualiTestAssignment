@@ -1,19 +1,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1" verbose="1" >
-    <test name="reverseTest" >
+<suite name="Suite1" verbose="1">
+    <test name="stringManipulationTest">
         <classes>
-            <class name="StringManipulationTest" />
+            <class name="StringManipulationTest"/>
         </classes>
     </test>
-    <test name="frameTest" >
-        <classes>
-            <class name="StringManipulationTest" />
-        </classes>
-    </test>
-    <test name="listTest" verbose="1">
+    <test name="listTest">
         <classes>
             <class name="ListManipulationTest"/>
+        </classes>
+    </test>
+
+    <test name="genericListTest">
+        <classes>
+            <class name="GenericListManipulationTest"/>
         </classes>
     </test>
 

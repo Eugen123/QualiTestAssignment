@@ -15,13 +15,13 @@ public class StringManipulationTest {
     public void frameTest(){
         StringManipulator stringManipulator = new StringManipulator();
 
-        stringManipulator.printPhraseInPhrame("Hello word in a frame");
+        stringManipulator.printPhraseInFrame("Hello word in a frame");
     }
 
     @Test
-    public void frameTest1(){
+    public void oneWordFrameTest(){
         StringManipulator stringManipulator = new StringManipulator();
 
-        stringManipulator.printPhraseInPhrame("Hello");
+        stringManipulator.printPhraseInFrame("Hello");
     }
 }

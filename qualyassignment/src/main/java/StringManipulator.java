@@ -8,7 +8,7 @@ public class StringManipulator {
 
     }
 
-    public void printPhraseInPhrame(String phrase){
+    public void printPhraseInFrame(String phrase){
 
         int maxWordLength = findMaxStringLength(phrase);
         String[] phraseWords = phrase.split(" ");
