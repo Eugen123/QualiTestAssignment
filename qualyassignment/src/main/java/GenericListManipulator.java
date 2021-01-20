@@ -3,7 +3,7 @@ import java.util.List;
 
 public class GenericListManipulator<T> {
 
-    public List<Integer> iterate(List<List<T>> genericList){
+    public List iterate(List<List<T>> genericList){
 
         List<Integer> numbersList = new ArrayList<Integer>();
 
